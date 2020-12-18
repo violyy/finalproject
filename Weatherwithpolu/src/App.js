@@ -170,6 +170,7 @@ class App extends React.Component {
         <button onClick={this.Re}>Reamur</button>
         <button onClick={this.Far}>Fahrenheit</button>
         </div>
+      <h4>Hourly Forecast (Every 3 hours!)</h4>
         <div id="daily" className="hidden">
             <div className="wrapper">
               <div className="item">
