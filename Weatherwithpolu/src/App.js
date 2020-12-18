@@ -66,6 +66,7 @@ class App extends React.Component {
         document.getElementById("body").className="mist"
       }
       document.getElementById("temp").className="visibility";
+    document.getElementById("template").className="visibility";
       document.getElementById("polusi").className="visibility";
       document.getElementById("daily").className="visibility";
       document.getElementById("air").className="visibility";
@@ -170,7 +171,7 @@ class App extends React.Component {
         <button onClick={this.Re}>Reamur</button>
         <button onClick={this.Far}>Fahrenheit</button>
         </div>
-      <h4 id="temp" className="hidden">Hourly Forecast (Every 3 hours!)</h4>
+      <h4 id="template" className="hidden">Hourly Forecast (Every 3 hours!)</h4>
         <div id="daily" className="hidden">
             <div className="wrapper">
               <div className="item">
